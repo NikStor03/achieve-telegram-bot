@@ -2,7 +2,7 @@ import tortoise
 from tortoise import fields
 
 
-class UsersModel:
+class UsersModel(tortoise.Model):
 
     id = fields.BigIntField(pk=True)
     achieves = fields.ManyToManyField('models.AchievesModel')
@@ -14,7 +14,7 @@ class UsersModel:
         return str(self.id)
 
 
-class RegionsModel:
+class RegionsModel(tortoise.Model):
 
     name = fields.CharField(max_length=256)
 
@@ -22,7 +22,7 @@ class RegionsModel:
         return str(self.name)
 
 
-class PremiumsPricesModel:
+class PremiumsPricesModel(tortoise.Model):
 
     price = fields.FloatField()
 
@@ -30,7 +30,7 @@ class PremiumsPricesModel:
         return str(self.price)
 
 
-class PremiumsModel:
+class PremiumsModel(tortoise.Model):
 
     price = fields.ForeignKeyField('models.PremiumsPricesModel')
     active_at = fields.DatetimeField(auto_now=True)
@@ -40,7 +40,7 @@ class PremiumsModel:
         return str(self.active_at)
 
 
-class AchievesModel:
+class AchievesModel(tortoise.Model):
 
     name = fields.CharField(max_length=256)
     descriptions = fields.TextField()
