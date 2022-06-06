@@ -7,19 +7,10 @@ class UsersModel(tortoise.Model):
     id = fields.BigIntField(pk=True)
     achieves = fields.ManyToManyField('models.AchievesModel')
     created_at = fields.DatetimeField(auto_now=True)
-    premium = fields.ForeignKeyField('models.PremiumsModel')
-    region = fields.ForeignKeyField('models.RegionsModel')
+    premium = fields.ForeignKeyField('models.PremiumsModel', null=True)
 
     def __str__(self):
         return str(self.id)
-
-
-class RegionsModel(tortoise.Model):
-
-    name = fields.CharField(max_length=256)
-
-    def __str__(self):
-        return str(self.name)
 
 
 class PremiumsPricesModel(tortoise.Model):
