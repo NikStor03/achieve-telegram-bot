@@ -1,0 +1,13 @@
+{
+  "texts": {
+    "hello": "Achieve bot\nThis bot help you to do some challenge and receive your aim",
+    "create-achieve-name": "Enter name for this achieve.",
+    "create-achieve-day-end": "Grate, now enter day of end this achieve. Example: day/month/year (01/12/2022)",
+    "create-achieve-total-aim": "Enter amount for the entire time of the challenge.",
+    "create-achieve-daily-aim": "Enter amount for the daily time of the challenge.",
+    "create-achieve-short-name": "Enter short name (max 4 chars). By this name you will plus/minus your counts.",
+    "create-achieve-done": "You had been created achieve.\n\n<b>\uD83C\uDFAF [Achieve] \uD83C\uDFAF</b>\n\n<b>\"{name}\"</b>\n\nDaily aim: {daily}\nTotal aim: {total}\nStarted at: {started_at}\nEnd at: {end_at}\n",
+    "achieve-card": "<b>🎯 [Achieve] 🎯</b>\n\n<b>\"{name}\"</b>\n\nShort name: {short}\nDescription: \n{desc}\n\nToday was done: {today}\nTotal count: {total}\n\nDaily aim: {daily}\nTotal aim: {total}\n\nStarted at: {started_at}\nEnd at: {end_at}\n",
+    "state-message-error": "You can't save text as keyboard button."
+  }
+}

@@ -1,0 +1,1371 @@
+2022-06-05 20:37:00.757 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:37:00.758 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:37:07.745 INFO logging - on_pre_process_message: Received message [ID:1468] in chat [private:842796728]
+2022-06-05 20:37:15.868 INFO logging - on_pre_process_message: Received message [ID:1469] in chat [private:842796728]
+2022-06-05 20:37:15.869 INFO logging - on_post_process_update: Process update [ID:72013623]: [success] (in 1 ms)
+2022-06-05 20:37:28.771 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:37:28.773 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:37:29.282 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:37:29.282 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:37:30.737 INFO logging - on_pre_process_message: Received message [ID:1470] in chat [private:842796728]
+2022-06-05 20:37:30.737 INFO logging - on_post_process_update: Process update [ID:72013624]: [success] (in 1 ms)
+2022-06-05 20:37:43.422 INFO logging - on_pre_process_message: Received message [ID:1471] in chat [private:842796728]
+2022-06-05 20:37:46.665 INFO logging - on_pre_process_message: Received message [ID:1472] in chat [private:842796728]
+2022-06-05 20:38:30.680 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:38:30.681 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:38:31.271 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:38:31.271 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:38:33.205 INFO logging - on_pre_process_message: Received message [ID:1473] in chat [private:842796728]
+2022-06-05 20:38:33.206 INFO logging - on_post_process_update: Process update [ID:72013627]: [success] (in 1 ms)
+2022-06-05 20:38:45.948 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:38:45.949 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:38:46.388 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:38:46.388 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:38:47.805 INFO logging - on_pre_process_message: Received message [ID:1474] in chat [private:842796728]
+2022-06-05 20:38:58.034 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:38:58.034 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:38:58.460 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:38:58.461 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:39:00.392 INFO logging - on_pre_process_message: Received message [ID:1475] in chat [private:842796728]
+2022-06-05 20:39:00.503 INFO logging - on_post_process_update: Process update [ID:72013629]: [success] (in 112 ms)
+2022-06-05 20:39:42.067 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:39:42.068 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:39:43.071 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:39:43.071 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:39:44.206 INFO logging - on_pre_process_message: Received message [ID:1477] in chat [private:842796728]
+2022-06-05 20:39:44.410 INFO logging - on_post_process_update: Process update [ID:72013630]: [success] (in 203 ms)
+2022-06-05 20:39:52.786 INFO logging - on_pre_process_message: Received message [ID:1479] in chat [private:842796728]
+2022-06-05 20:39:52.910 INFO logging - on_post_process_update: Process update [ID:72013631]: [success] (in 123 ms)
+2022-06-05 20:39:55.585 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:39:55.586 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:39:56.018 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:39:56.018 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:40:03.037 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:40:03.038 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:40:03.579 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:40:03.579 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:40:04.911 INFO logging - on_pre_process_message: Received message [ID:1481] in chat [private:842796728]
+2022-06-05 20:40:04.911 INFO logging - on_pre_process_error: Process update [ID:72013632]: [failed] (in 1 ms)
+2022-06-05 20:40:04.911 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ConfigurationError('No DB associated to model')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 274, in db
+    return current_transaction_map[self.default_connection].get()
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 1286, in get_or_none
+    return cls._meta.manager.get_queryset().get_or_none(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/manager.py", line 15, in get_queryset
+    return QuerySet(self._model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 295, in __init__
+    super().__init__(model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 94, in __init__
+    self.capabilities: Capabilities = model._meta.db.capabilities
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 276, in db
+    raise ConfigurationError("No DB associated to model")
+tortoise.exceptions.ConfigurationError: No DB associated to model
+2022-06-05 20:40:44.413 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:40:44.414 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:40:44.926 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:40:44.926 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:40:48.382 INFO logging - on_pre_process_message: Received message [ID:1482] in chat [private:842796728]
+2022-06-05 20:40:48.383 INFO logging - on_pre_process_error: Process update [ID:72013633]: [failed] (in 1 ms)
+2022-06-05 20:40:48.384 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ConfigurationError('No DB associated to model')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 274, in db
+    return current_transaction_map[self.default_connection].get()
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 1286, in get_or_none
+    return cls._meta.manager.get_queryset().get_or_none(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/manager.py", line 15, in get_queryset
+    return QuerySet(self._model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 295, in __init__
+    super().__init__(model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 94, in __init__
+    self.capabilities: Capabilities = model._meta.db.capabilities
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 276, in db
+    raise ConfigurationError("No DB associated to model")
+tortoise.exceptions.ConfigurationError: No DB associated to model
+2022-06-05 20:41:58.277 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:41:58.279 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:41:59.012 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:41:59.012 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:42:01.272 INFO logging - on_pre_process_message: Received message [ID:1483] in chat [private:842796728]
+2022-06-05 20:42:01.273 INFO logging - on_pre_process_error: Process update [ID:72013634]: [failed] (in 1 ms)
+2022-06-05 20:42:01.273 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ConfigurationError('No DB associated to model')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 274, in db
+    return current_transaction_map[self.default_connection].get()
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 1286, in get_or_none
+    return cls._meta.manager.get_queryset().get_or_none(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/manager.py", line 15, in get_queryset
+    return QuerySet(self._model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 295, in __init__
+    super().__init__(model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 94, in __init__
+    self.capabilities: Capabilities = model._meta.db.capabilities
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 276, in db
+    raise ConfigurationError("No DB associated to model")
+tortoise.exceptions.ConfigurationError: No DB associated to model
+2022-06-05 20:42:29.088 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:42:29.089 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:42:29.530 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-05 20:42:29.857 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:42:29.858 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:42:33.369 INFO logging - on_pre_process_message: Received message [ID:1484] in chat [private:842796728]
+2022-06-05 20:42:33.370 INFO logging - on_pre_process_error: Process update [ID:72013635]: [failed] (in 2 ms)
+2022-06-05 20:42:33.371 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-05 20:43:14.704 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:43:14.705 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:43:15.144 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-05 20:43:15.327 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:43:15.327 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:43:16.868 INFO logging - on_pre_process_message: Received message [ID:1485] in chat [private:842796728]
+2022-06-05 20:43:16.869 INFO logging - on_pre_process_error: Process update [ID:72013636]: [failed] (in 1 ms)
+2022-06-05 20:43:16.870 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-05 20:44:02.819 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:44:02.820 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:44:03.144 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-05 20:44:03.269 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:44:03.269 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:44:04.455 INFO logging - on_pre_process_message: Received message [ID:1486] in chat [private:842796728]
+2022-06-05 20:44:04.456 INFO logging - on_pre_process_error: Process update [ID:72013637]: [failed] (in 2 ms)
+2022-06-05 20:44:04.457 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-05 20:46:29.186 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:46:29.187 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:46:29.523 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-05 20:46:29.758 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:46:29.759 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:46:39.037 INFO logging - on_pre_process_message: Received message [ID:1487] in chat [private:842796728]
+2022-06-05 20:46:39.038 INFO logging - on_pre_process_error: Process update [ID:72013638]: [failed] (in 1 ms)
+2022-06-05 20:46:39.039 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=FieldError("Unknown filter param 'id'. Allowed base values are ['achieves', 'created_at', 'premium', 'premium_id', 'user_id']")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 958, in __await__
+    self._make_query()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 920, in _make_query
+    self.resolve_filters(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 130, in resolve_filters
+    modifier &= node.resolve(model, annotations, custom_filters, model._meta.basetable)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/query_utils.py", line 390, in resolve
+    return self._resolve_kwargs(model, table)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/query_utils.py", line 344, in _resolve_kwargs
+    key, value = self._get_actual_filter_params(model, raw_key, raw_value)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/query_utils.py", line 338, in _get_actual_filter_params
+    raise FieldError(f"Unknown filter param '{key}'. Allowed base values are {allowed}")
+tortoise.exceptions.FieldError: Unknown filter param 'id'. Allowed base values are ['achieves', 'created_at', 'premium', 'premium_id', 's']
+2022-06-05 20:47:01.172 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:47:01.172 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:47:01.497 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-05 20:47:02.616 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:47:02.617 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:47:07.731 INFO logging - on_pre_process_message: Received message [ID:1488] in chat [private:842796728]
+2022-06-05 20:47:07.732 INFO logging - on_pre_process_error: Process update [ID:72013639]: [failed] (in 1 ms)
+2022-06-05 20:47:07.733 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(user_id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-05 20:47:51.700 INFO dispatcher - stop_polling: Stop polling...
+2022-06-05 20:47:51.701 WARNING executor - start_polling: Goodbye!
+2022-06-05 20:47:52.117 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-05 20:47:52.324 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-05 20:47:52.325 INFO dispatcher - start_polling: Start polling.
+2022-06-05 20:47:54.916 INFO logging - on_pre_process_message: Received message [ID:1489] in chat [private:842796728]
+2022-06-05 20:47:54.918 INFO logging - on_pre_process_error: Process update [ID:72013640]: [failed] (in 3 ms)
+2022-06-05 20:47:54.919 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 19, in send_welcome
+    price = await PremiumsPricesModel.get_or_none(price=0.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 05:18:28.846 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 886, in start
+    with self._timer:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-06-06 09:46:40.470 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 886, in start
+    with self._timer:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-06-06 09:48:00.525 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1055, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1040, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 954, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+TimeoutError: [Errno 60] Connect call failed ('149.154.167.220', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1051, in _create_direct_connection
+    raise last_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 975, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2022-06-06 10:06:05.076 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1055, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1040, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 954, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+TimeoutError: [Errno 60] Connect call failed ('149.154.167.220', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1051, in _create_direct_connection
+    raise last_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 975, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2022-06-06 11:30:19.994 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1055, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1040, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 954, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+TimeoutError: [Errno 60] Connect call failed ('149.154.167.220', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1051, in _create_direct_connection
+    raise last_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 975, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2022-06-06 12:06:10.133 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1055, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1040, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 954, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+TimeoutError: [Errno 60] Connect call failed ('149.154.167.220', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1051, in _create_direct_connection
+    raise last_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 975, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2022-06-06 12:07:30.170 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1055, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1040, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 954, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+TimeoutError: [Errno 60] Connect call failed ('149.154.167.220', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1051, in _create_direct_connection
+    raise last_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 975, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2022-06-06 13:46:08.368 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 969, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)  # type: ignore  # noqa
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1055, in create_connection
+    raise exceptions[0]
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 1040, in create_connection
+    sock = await self._connect_sock(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 954, in _connect_sock
+    await self.sock_connect(sock, address)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 502, in sock_connect
+    return await fut
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/selector_events.py", line 537, in _sock_connect_cb
+    raise OSError(err, f'Connect call failed {address}')
+TimeoutError: [Errno 60] Connect call failed ('149.154.167.220', 443)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 520, in _request
+    conn = await self._connector.connect(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 535, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 892, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1051, in _create_direct_connection
+    raise last_exc
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 1020, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/connector.py", line 975, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 142, in make_request
+    raise exceptions.NetworkError(f"aiohttp client throws an error: {e.__class__.__name__}: {e}")
+aiogram.utils.exceptions.NetworkError: Aiohttp client throws an error: ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connect call failed ('149.154.167.220', 443)]
+2022-06-06 14:54:51.698 ERROR dispatcher - start_polling: Cause exception while getting updates.
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 381, in start_polling
+    updates = await self.bot.get_updates(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/bot.py", line 110, in get_updates
+    result = await self.request(api.Methods.GET_UPDATES, payload)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/base.py", line 231, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/bot/api.py", line 139, in make_request
+    async with session.post(url, data=req, **kwargs) as response:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 1117, in __aenter__
+    self._resp = await self._coro
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client.py", line 544, in _request
+    await resp.start(conn)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/client_reqrep.py", line 886, in start
+    with self._timer:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiohttp/helpers.py", line 656, in __exit__
+    raise asyncio.TimeoutError from None
+asyncio.exceptions.TimeoutError
+2022-06-06 15:46:54.628 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:46:54.630 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:46:55.115 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:46:55.830 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:46:55.831 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:47:00.520 INFO logging - on_pre_process_message: Received message [ID:1490] in chat [private:842796728]
+2022-06-06 15:47:00.522 INFO logging - on_pre_process_error: Process update [ID:72013641]: [failed] (in 2 ms)
+2022-06-06 15:47:00.523 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 19, in send_welcome
+    price = await PremiumsPricesModel.get_or_none(price=0.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:47:25.700 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:47:25.701 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:47:44.013 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:47:44.270 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:47:44.271 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:47:50.690 INFO logging - on_pre_process_message: Received message [ID:1491] in chat [private:842796728]
+2022-06-06 15:47:50.692 INFO logging - on_pre_process_error: Process update [ID:72013642]: [failed] (in 2 ms)
+2022-06-06 15:47:50.692 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 19, in send_welcome
+    price = await PremiumsPricesModel.get_or_none(price=0.0)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:48:27.260 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:48:27.267 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:48:27.693 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:48:28.087 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:48:28.087 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:48:29.740 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:48:29.741 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:48:29.982 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:48:30.289 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:48:30.289 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:48:32.598 INFO logging - on_pre_process_message: Received message [ID:1492] in chat [private:842796728]
+2022-06-06 15:48:32.601 INFO logging - on_pre_process_error: Process update [ID:72013643]: [failed] (in 2 ms)
+2022-06-06 15:48:32.602 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:49:25.141 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:49:25.141 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:49:45.345 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:49:45.730 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:49:45.730 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:49:52.007 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:49:52.008 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:49:52.314 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:49:52.550 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:49:52.550 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:49:54.369 INFO logging - on_pre_process_message: Received message [ID:1493] in chat [private:842796728]
+2022-06-06 15:49:54.388 INFO logging - on_pre_process_error: Process update [ID:72013644]: [failed] (in 24 ms)
+2022-06-06 15:49:54.389 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    user = await UsersModel.get_or_none(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:50:27.040 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:50:27.042 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:50:27.474 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:50:27.741 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:50:27.742 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:50:29.219 INFO logging - on_pre_process_message: Received message [ID:1494] in chat [private:842796728]
+2022-06-06 15:50:29.221 INFO logging - on_pre_process_error: Process update [ID:72013645]: [failed] (in 2 ms)
+2022-06-06 15:50:29.221 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    user = await UsersModel.filter(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:51:26.116 INFO logging - on_pre_process_message: Received message [ID:1495] in chat [private:842796728]
+2022-06-06 15:51:26.119 INFO logging - on_pre_process_error: Process update [ID:72013646]: [failed] (in 3 ms)
+2022-06-06 15:51:26.119 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    user = await UsersModel.filter(id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:52:33.315 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:52:33.316 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:52:33.747 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:52:34.217 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:52:34.217 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:52:36.845 INFO logging - on_pre_process_message: Received message [ID:1496] in chat [private:842796728]
+2022-06-06 15:52:36.847 INFO logging - on_pre_process_error: Process update [ID:72013647]: [failed] (in 1 ms)
+2022-06-06 15:52:36.847 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    user = await UsersModel.all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:56:08.176 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:56:08.177 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:56:08.621 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:56:11.947 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:56:11.947 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:56:48.002 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:56:48.003 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:56:48.421 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:56:50.203 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:56:50.204 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:57:02.703 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:57:02.706 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:57:03.111 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:57:14.226 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:57:14.227 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:57:14.479 INFO logging - on_pre_process_message: Received message [ID:1497] in chat [private:842796728]
+2022-06-06 15:57:14.482 INFO logging - on_pre_process_error: Process update [ID:72013648]: [failed] (in 3 ms)
+2022-06-06 15:57:14.482 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:58:33.873 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:58:33.874 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:58:34.285 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 15:58:34.854 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:58:34.854 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:58:36.669 INFO logging - on_pre_process_message: Received message [ID:1498] in chat [private:842796728]
+2022-06-06 15:58:36.670 INFO logging - on_pre_process_error: Process update [ID:72013649]: [failed] (in 1 ms)
+2022-06-06 15:58:36.670 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 15:58:56.358 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:58:56.360 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:58:57.091 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:58:57.091 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:58:58.424 INFO logging - on_pre_process_message: Received message [ID:1499] in chat [private:842796728]
+2022-06-06 15:58:58.428 INFO logging - on_pre_process_error: Process update [ID:72013650]: [failed] (in 4 ms)
+2022-06-06 15:58:58.428 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=NameError("name 'run_async' is not defined")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 12, in send_welcome
+    run_async(run_tortoise())
+NameError: name 'run_async' is not defined
+2022-06-06 15:59:06.399 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:59:06.400 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:59:07.147 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:59:07.150 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:59:08.614 INFO logging - on_pre_process_message: Received message [ID:1500] in chat [private:842796728]
+2022-06-06 15:59:08.620 INFO logging - on_pre_process_error: Process update [ID:72013651]: [failed] (in 6 ms)
+2022-06-06 15:59:08.620 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=RuntimeError('This event loop is already running')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/__init__.py", line 707, in run_async
+    loop.run_until_complete(coro)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 617, in run_until_complete
+    self._check_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 577, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    run_async(run_tortoise())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/__init__.py", line 709, in run_async
+    loop.run_until_complete(Tortoise.close_connections())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 617, in run_until_complete
+    self._check_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 577, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2022-06-06 15:59:21.820 INFO logging - on_pre_process_message: Received message [ID:1501] in chat [private:842796728]
+2022-06-06 15:59:21.820 INFO logging - on_pre_process_error: Process update [ID:72013652]: [failed] (in 1 ms)
+2022-06-06 15:59:21.821 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=RuntimeError('This event loop is already running')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/__init__.py", line 707, in run_async
+    loop.run_until_complete(coro)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 617, in run_until_complete
+    self._check_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 577, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    run_async(run_tortoise())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/__init__.py", line 709, in run_async
+    loop.run_until_complete(Tortoise.close_connections())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 617, in run_until_complete
+    self._check_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 577, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2022-06-06 15:59:31.543 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:59:31.547 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:59:32.274 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:59:32.274 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:59:33.676 INFO logging - on_pre_process_message: Received message [ID:1502] in chat [private:842796728]
+2022-06-06 15:59:33.677 INFO logging - on_pre_process_error: Process update [ID:72013653]: [failed] (in 1 ms)
+2022-06-06 15:59:33.677 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=ConfigurationError('No DB associated to model')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 274, in db
+    return current_transaction_map[self.default_connection].get()
+KeyError: None
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 16, in send_welcome
+    user = await UsersModel.all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 1228, in all
+    return cls._meta.manager.get_queryset()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/manager.py", line 15, in get_queryset
+    return QuerySet(self._model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 295, in __init__
+    super().__init__(model)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 94, in __init__
+    self.capabilities: Capabilities = model._meta.db.capabilities
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/models.py", line 276, in db
+    raise ConfigurationError("No DB associated to model")
+tortoise.exceptions.ConfigurationError: No DB associated to model
+2022-06-06 15:59:37.070 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:59:37.070 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:59:37.703 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:59:37.703 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:59:42.047 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:59:42.047 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:59:42.601 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:59:42.601 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:59:44.128 INFO logging - on_pre_process_message: Received message [ID:1503] in chat [private:842796728]
+2022-06-06 15:59:44.128 INFO logging - on_pre_process_error: Process update [ID:72013654]: [failed] (in 1 ms)
+2022-06-06 15:59:44.129 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-7' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=RuntimeError('This event loop is already running')>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/__init__.py", line 707, in run_async
+    loop.run_until_complete(coro)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 617, in run_until_complete
+    self._check_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 577, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 14, in send_welcome
+    run_async(run_tortoise())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/__init__.py", line 709, in run_async
+    loop.run_until_complete(Tortoise.close_connections())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 617, in run_until_complete
+    self._check_running()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/asyncio/base_events.py", line 577, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+2022-06-06 15:59:51.339 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 15:59:51.340 WARNING executor - start_polling: Goodbye!
+2022-06-06 15:59:51.948 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 15:59:51.948 INFO dispatcher - start_polling: Start polling.
+2022-06-06 15:59:55.683 INFO logging - on_pre_process_message: Received message [ID:1504] in chat [private:842796728]
+2022-06-06 15:59:55.686 INFO logging - on_pre_process_error: Process update [ID:72013655]: [failed] (in 3 ms)
+2022-06-06 15:59:55.686 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 16, in send_welcome
+    print('get user')
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 16:01:15.581 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 16:01:15.582 WARNING executor - start_polling: Goodbye!
+2022-06-06 16:01:16.021 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 16:01:18.203 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 16:01:18.204 INFO dispatcher - start_polling: Start polling.
+2022-06-06 16:01:22.473 INFO logging - on_pre_process_message: Received message [ID:1505] in chat [private:842796728]
+2022-06-06 16:01:22.474 INFO logging - on_pre_process_error: Process update [ID:72013656]: [failed] (in 2 ms)
+2022-06-06 16:01:22.475 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.all()
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 16:01:43.971 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 16:01:43.971 WARNING executor - start_polling: Goodbye!
+2022-06-06 16:01:44.384 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 16:01:44.625 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 16:01:44.625 INFO dispatcher - start_polling: Start polling.
+2022-06-06 16:01:51.451 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 16:01:51.452 WARNING executor - start_polling: Goodbye!
+2022-06-06 16:01:51.759 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 16:01:52.625 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 16:01:52.626 INFO dispatcher - start_polling: Start polling.
+2022-06-06 16:01:53.330 INFO logging - on_pre_process_message: Received message [ID:1506] in chat [private:842796728]
+2022-06-06 16:01:53.332 INFO logging - on_pre_process_error: Process update [ID:72013657]: [failed] (in 2 ms)
+2022-06-06 16:01:53.333 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/core/help_message.py", line 13, in send_welcome
+    user = await UsersModel.get_or_none(user_id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 16:05:30.656 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 16:05:30.662 WARNING executor - start_polling: Goodbye!
+2022-06-06 16:05:31.108 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 16:05:31.827 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 16:05:31.827 INFO dispatcher - start_polling: Start polling.
+2022-06-06 16:05:33.110 INFO logging - on_pre_process_message: Received message [ID:1507] in chat [private:842796728]
+2022-06-06 16:05:33.113 INFO logging - on_pre_process_error: Process update [ID:72013658]: [failed] (in 3 ms)
+2022-06-06 16:05:33.114 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/__main__.py", line 42, in send_welcome
+    user = await UsersModel.get_or_none(user_id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 16:06:30.872 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 16:06:30.873 WARNING executor - start_polling: Goodbye!
+2022-06-06 16:06:31.196 INFO __init__ - close_connections: Tortoise-ORM shutdown
+2022-06-06 16:06:31.743 INFO executor - _welcome: Bot: Sport Bot [@sportnik_bot]
+2022-06-06 16:06:31.743 INFO dispatcher - start_polling: Start polling.
+2022-06-06 16:06:36.682 INFO logging - on_pre_process_message: Received message [ID:1508] in chat [private:842796728]
+2022-06-06 16:06:36.685 INFO logging - on_pre_process_error: Process update [ID:72013659]: [failed] (in 3 ms)
+2022-06-06 16:06:36.685 ERROR base_events - default_exception_handler: Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<Dispatcher._process_polling_updates() done, defined at /Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py:407> exception=AttributeError("'NoneType' object has no attribute 'acquire'")>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/aiogram/dispatcher/handler.py", line 116, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "/Users/MacBookAir/Projects/achive-telegram-bot/bot/__main__.py", line 43, in send_welcome
+    user = await UsersModel.get_or_none(user_id=message.from_user.id)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/queryset.py", line 966, in _execute
+    instance_list = await self._db.executor_class(
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/executor.py", line 129, in execute_select
+    _, raw_results = await self.db.execute_query(query.get_sql())
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 36, in translate_exceptions_
+    return await func(self, *args)
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/asyncpg/client.py", line 171, in execute_query
+    async with self.acquire_connection() as connection:
+  File "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/tortoise/backends/base/client.py", line 303, in __aenter__
+    self.connection = await self.pool.acquire()
+AttributeError: 'NoneType' object has no attribute 'acquire'
+2022-06-06 16:06:59.885 INFO dispatcher - stop_polling: Stop polling...
+2022-06-06 16:06:59.886 WARNING executor - start_polling: Goodbye!
